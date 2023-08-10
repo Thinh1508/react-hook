@@ -1,0 +1,44 @@
+.todo_list {
+  ul {
+    padding: 0 10px 10px 10px;
+    list-style-type: none;
+
+    li {
+      padding: 10px;
+      cursor: pointer;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-weight: 500;
+
+      span {
+        float: right;
+        opacity: 0.7;
+      }
+
+      span:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  form {
+    display: flex;
+    padding: 10px;
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 6px 0;
+      border: 0;
+      outline: none;
+    }
+
+    button {
+      padding: 10px;
+      margin: 6px 0;
+      border: 0;
+      display: block;
+    }
+  }
+}
